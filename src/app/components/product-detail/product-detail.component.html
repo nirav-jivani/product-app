@@ -1,0 +1,13 @@
+<div class="container">
+    @if (product()) {
+      <div class="product-detail">
+        <h2 class="product-name">{{ product()?.name }}</h2>
+        <p class="product-price">Price: ${{ product()?.price }}</p>
+        <p class="product-description">Description: {{ product()?.description }}</p>
+      </div>
+    } @else {
+      <p class="error-message">Product not found.</p>
+    }
+    <button class="back-button" (click)="goBack()">Go Back</button>
+  </div>
+  
