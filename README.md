@@ -1,59 +1,66 @@
 # ProductApp
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
+This project was generated using Angular CLI version 19.2.0.
 
-## Development server
+## Getting Started
 
-To start a local development server, run:
+Follow these steps to run the project locally:
 
-```bash
-ng serve
-```
+1. **Clone the Repository**  
+   Open your terminal and run:  
+   git clone https://github.com/nirav-jivani/product-app.git
+   (Replace the URL with your repository's URL.)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+2. **Navigate to the Project Folder**  
+   cd ProductApp
 
-## Code scaffolding
+3. **Install Node Modules**  
+   Install all necessary dependencies by running:  
+   npm install
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+4. **Start the Development Server**  
+   Launch the application by running:  
+   ng serve or npm start
+   Once the server is running, open your browser and navigate to http://localhost:4200/. The application will automatically reload whenever you modify any of the source files.
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
+---
 
 ## Building
 
 To build the project run:
 
-```bash
 ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+This will compile your project and store the build artifacts in the dist/ directory. By default, the production build optimizes your application for performance and speed.
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## Running Unit Tests
 
-```bash
+To execute unit tests with the Karma test runner, use the following command:
+
 ng test
-```
 
-## Running end-to-end tests
+---
+
+## Running End-to-End Tests
 
 For end-to-end (e2e) testing, run:
 
-```bash
 ng e2e
-```
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Additional Resources
+---
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Project Screenshots
+
+Here are a couple of screenshots from the application:
+
+![Screenshot 1](./src/app/assets/productlist.png)  
+*Example of the application home page (Product List).*
+
+![Screenshot 2](./src/app/assets/productdetail.png)  
+*Another view demonstrating the application interface (Product Details).*
+
+---
