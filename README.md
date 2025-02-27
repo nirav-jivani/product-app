@@ -9,7 +9,6 @@ Follow these steps to run the project locally:
 1. **Clone the Repository**  
    Open your terminal and run:  
    git clone https://github.com/nirav-jivani/product-app.git
-   (Replace the URL with your repository's URL.)
 
 2. **Navigate to the Project Folder**  
    cd ProductApp
