@@ -1,6 +1,17 @@
 # ProductApp
 
 This project was generated using Angular CLI version 19.2.0.
+## Project Screenshots
+
+Here are a couple of screenshots from the application:
+
+![Screenshot 1](./src/app/assets/productlist.png)  
+*Example of the application home page (Product List).*
+
+![Screenshot 2](./src/app/assets/productdetail.png)  
+*Another view demonstrating the application interface (Product Details).*
+
+---
 
 ## Getting Started
 
@@ -52,14 +63,3 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 
 ---
 
-## Project Screenshots
-
-Here are a couple of screenshots from the application:
-
-![Screenshot 1](./src/app/assets/productlist.png)  
-*Example of the application home page (Product List).*
-
-![Screenshot 2](./src/app/assets/productdetail.png)  
-*Another view demonstrating the application interface (Product Details).*
-
----
