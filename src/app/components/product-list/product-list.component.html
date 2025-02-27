@@ -1,0 +1,12 @@
+<div class="container">
+    <h2 class="title">Product List</h2>
+    <div class="product-grid">
+      @if (products().length === 0) {
+        <p class="loading">Loading products...</p>
+      } @else {
+        @for (product of products(); track product.id) {
+          <app-product-card [product]="product" (viewDetails)="viewProduct($event)"></app-product-card>
+        }
+      }
+    </div>
+  </div>
